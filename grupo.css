@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* con la siguiente línea yo controlo el tamaño de la caja sumando el contenido, el padding y el border */
+    box-sizing: border-box;
+
+}
+
+nav{
+    /* */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 1280px; */
+    height: 80px;
+    /* la siguiente línea sirve para centrar  */
+    margin: 0 auto;
+    background-color: teal;
+}
+
+.menu_item{
+    /* la siguiente línea quita los pintos con los que por defecto viene una línea */
+    list-style: none;
+    /* las siguientes dos líneas muestran la lista de forma horizontal */
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+}
+
+.Equipo > h1{
+    color: white;
+}
+
+img{
+    margin: 0;
+    text-align: start;
+    width: 70px;
+    height: 70px;
+}
+
+h1{
+    /* font-size define el tamaño de letra */
+    font-size: 20px;
+    /* font-family define el tipo de letra */
+    font-family: 'Lucida Sans'; 
+}  
+
+h2{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+    color: teal;
+}
+
+section{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border: solid 1px;
+}
+
+section > Aldrin{
+    width: 1230px;
+    height: 500px;
+}
