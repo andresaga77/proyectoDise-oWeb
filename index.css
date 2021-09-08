@@ -7,6 +7,10 @@
 body{
 
     background-color: #252440;
+     
+    text-align: center;
+    align-items: center;
+    position: relative;
 
 }
 
@@ -94,4 +98,28 @@ nav {
 .menu_item {
 
     margin: 0 10px;
+}
+
+header{
+    
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+
+.image{
+
+    width: 600px;
+    height: 400px;
+    display:inline-block;
+  
+
+}
+
+p{
+    color:white;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
