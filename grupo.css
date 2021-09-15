@@ -1,66 +1,54 @@
-*{
+/*  *{
     margin: 0;
     padding: 0;
-    /* con la siguiente línea yo controlo el tamaño de la caja sumando el contenido, el padding y el border */
+    /con la siguiente línea yo controlo el tamaño de la caja sumando el contenido, el padding y el border 
     box-sizing: border-box;
 
-}
+} */
 
-nav{
-    /* */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    /* width: 1280px; */
-    height: 80px;
-    /* la siguiente línea sirve para centrar  */
-    margin: 0 auto;
-    background-color: teal;
-}
-
-.menu_item{
-    /* la siguiente línea quita los pintos con los que por defecto viene una línea */
-    list-style: none;
-    /* las siguientes dos líneas muestran la lista de forma horizontal */
-    display: flex;
-    flex-direction: row;
-    align-items:flex-end;
-}
-
-.Equipo > h1{
+header{
+    background-color: #2f4f4f;
+    font-size: 40px;
     color: white;
+    height: 100px;
+    text-align: center;
+    
 }
 
-img{
-    margin: 0;
-    text-align: start;
-    width: 70px;
-    height: 70px;
-}
-
-h1{
-    /* font-size define el tamaño de letra */
-    font-size: 20px;
-    /* font-family define el tipo de letra */
-    font-family: 'Lucida Sans'; 
-}  
-
-h2{
+.fotoLogo{
+    display: block;
     text-align: left;
-    font-size: 15px;
-    font-family: 'Lucida Sans';
-    color: teal;
+    width: 100px;
+    height: 100px;
 }
 
-section{
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    border: solid 1px;
+.card-img-top{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+       
 }
 
-section > Aldrin{
-    width: 1230px;
-    height: 500px;
+.btn-primary, .card{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
 }
+
+.card-text, .card-title{
+    text-align: center;
+    padding:10px 0;
+}
+
+.card-body{
+    padding: 0 20px;
+    margin: 0 20px;
+
+}
+
+h5{
+    padding:10px 0;
+}
+
