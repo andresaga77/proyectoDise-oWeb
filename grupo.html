@@ -1,102 +1,84 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Con la línea siguiete se informa en cual carpera están las imágenes -->
-    <link rel="shortcut icon" href="imagenes/icon_iot.png" type="image/png"/>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="grupo.css">
     <title>Equipo de trabajo</title>
-</head>
-
-<body>
-    <nav>
-    <!-- con la siguiente línea creo estas tres clases en las etiquetas div div.empresa.nav_item+.menu.nav_item+.social -->
-        <img src="imagenes/icon_iot.png"  alt="Imagen de la compañía"/>
-        <div class="Equipo nav_item"><h1>Equipo de trabajo</h1></div>
-        <div class="menu nav_item">
-            <ul class="menu_links">
-               <a href="#"><li class="menu_item">Inicio</li></a>
-               <a href="#"><li class="menu_item">Productos</li></a>
-               <a href="#"><li class="menu_item">Contacto</li></a>
-            </ul>
-        </div>
-    </nav>
-
-    <h1>Grupo de desarrolladores:</h1>    
-    <br>
-    <!-- la etiqueta alt sirve apra colocarle texto a las imágenes en caso de no encontrarla en la dirección indicada -->
-    <section class="Aldrin">
-        <h2>Aldrin Leal</h2>
-        <p><img src="imagenes/aldrin.png" alig ="right" alt="imagen de Aldrín" width="120px" height="120px"/>
-        Aldrin es ingeniero informático oriundo de Brasil. Desde hace 7 años vive en la ciudad de Medellín,
-        <br> 
-        donde ha tenido la oportunidad de convertise en paisa.        
-    </p>
-
-
-    </section>
-
-    
-    <br>
-    <!-- Módulo de Sebastián Moná -->
-    
-    <h2>Sebastián Moná</h2>      
-    <br>        
-    <p><img src="imagenes/Sebastian.png" alig ="right" alt="imagen de Sebastian" width="120px" height="120px"/>
-        Sebastián es ingeniero en instrumentación y control,
-        <br>
-        hoy en día hace parte de fabricato como ingeniero de mantenimiento. 
-    </p>   
-    <br>
-    <!-- Módulo de Johan Lemos -->
-
-   
-    <h2>Johan Lemos</h2> 
-    <br>
-    <p><img src="imagenes/johan.png" alig ="right" alt="imagen Johan" width="120px" height="120px"/>
-        Johan es ingeniero electrónico de la universidad de envigado,
-        <br>
-        actualmente labora como ingeniero en el municipio de Quibdó
-    </p>
-    <br>
-    <h2>Juan Sebastián</h2>
-    <br>
-    <p><img src="imagenes/Juan sebastian.png" alig ="right" alt="imagen de Juan Sebastián" width="120px" height="120px"/> 
-        Juan Sebastián es ingeniero de instrumentación y control,
-        <br>
-        actualmente trabaja como metrólogo
-   
-    </p>
-    <br>
-
-    <h2>Andrés González</h2>
-    <br>
-    <p><img src="imagenes/Andres.png" alig ="right" alt="imagen de Andres" width="120px" height="120px"/> 
-            Andrés es bioingeniero,
-            <br>
-            actualmente trabaja como bioingeniero en el hospital del sur
-       
-    </p>
-    <br>
-
-    <section>
-        <!-- .contenedor_producto>.producto*2>.nombre_producto+.img_producto+.descrip_producto -->
-        <div class="contenedor_producto">
-            <div class="producto">
-                <div class="nombre_producto">sensor de temperatura</div>
-                <div class="img_producto"><img src="sensor-temperatura.jpg" alt="sensor de temperatura"></div>
-                <div class="descrip_producto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, mollitia voluptate quo sed, vitae, rerum animi at porro repellat possimus officia vero nobis nam dolorem pariatur laborum voluptatibus recusandae? Quod autem fuga omnis. Id, fuga. Commodi, perspiciatis. Vero nulla animi libero exercitationem at maxime aut explicabo officia obcaecati, quos quod dignissimos aspernatur delectus quisquam illo esse adipisci voluptas velit earum!</div>
+  </head>
+  <body>
+    <header>
+        <div class="row">
+            <div class="col col-xs-2">
+                <img src="logo.png" alt="logo Iot" class="fotoLogo">
             </div>
-            <div class="producto">
-                <div class="nombre_producto">sensor de humedad</div>
-                <div class="img_producto"><img src="sensor_humedad.jpg" alt="sensor de humedad"></div>
-                <div class="descrip_producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, incidunt quo voluptate modi cupiditate, similique velit totam dignissimos aspernatur neque quasi. Porro quam culpa, temporibus nobis tempora illum dignissimos possimus cum, a magnam quod, laudantium nulla itaque quae minus ipsa dicta? Excepturi voluptatem eius repellat dolores dolor id ullam? Hic, id quae assumenda sit amet necessitatibus dolorem. Deserunt, officia distinctio?</div>
+            <!-- buscar como centrar este título -->
+            <div class="col-md-10">
+              Equipo de trabajo
             </div>
         </div>
-    </section>    
+    </header>
+    <!-- El conteiner centra el contenido y lo pone en cierta medida -->
+    <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col">
+                <div class="card-body">
+                <img src="aldrin.png" class="card-img-top" alt="img Aldrin"></img>
+                <h5 class="card-title">Aldrin Leal</h5>
+                <p class="card-text">
+                    Aldrin es ingeniero informático oriundo de Brasil. Desde hace 7 años vive en la ciudad de Medellín, donde ha tenido la oportunidad de convertise en paisa.
+                </p>
+                <a href="#" class="btn btn-primary">Proyectos</a>
+                </div>
+            </div>
+            <div class="col">                
+                <div class="card-body">
+                <img src="mona.png" class="card-img-top" alt="img Moná"></img>
+                <h5 class="card-title">Sebastián Moná</h5>
+                <p class="card-text">
+                    Sebastián es ingeniero en instrumentación y control, hoy en día hace parte de fabricato como ingeniero de mantenimiento
+                </p>
+                <a href="#" class="btn btn-primary">Proyectos</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-body">
+                <img src="juan.png" class="card-img-top" alt="img Juan"></img>
+                <h5 class="card-title">Juan Sebastián</h5>
+                <p class="card-text">
+                  Juan Sebastián es ingeniero de instrumentación y control, actualmente trabaja como metrólogo
+                </p>
+                <a href="#" class="btn btn-primary">Proyectos</a>
+            </div>
+        </div>
+    <!-- </div>         -->
+    
+    <div class="col">        
+        <div class="card-body">
+          <img src="johan.png" class="card-img-top" alt="img Johan"></img>
+          <h5 class="card-title">Johan Lemos</h5>
+          <p class="card-text">
+            Johan es ingeniero electrónico de la universidad de envigado, actualmente labora como ingeniero en el municipio de Quibdó
+          </p>
+          <a href="#" class="btn btn-primary">Proyectos</a>
+        </div>
+    </div>
+    <div class="col">        
+        <div class="card-body">
+          <img src="andres.png" class="card-img-top" alt="img Andrés"></img>
+          <h5 class="card-title">Andrés González</h5>
+          <p class="card-text">
+            Andrés es bioingeniero, actualmente trabaja como bioingeniero en el hospital del sur
+          </p>
+          <a href="#" class="btn btn-primary">Proyectos</a>
+        </div>
+    </div>
 
-</body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
 </html>
