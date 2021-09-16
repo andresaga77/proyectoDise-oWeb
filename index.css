@@ -14,3 +14,13 @@ body{
 
 }
 
+.carousel-item>img{
+    max-width: 800px;
+
+    max-height:500px ;
+    text-align: center;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
