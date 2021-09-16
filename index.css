@@ -14,10 +14,16 @@ body{
 
 }
 
-.carousel-item>img{
-    max-width: 800px;
+.font{
+    font-size :larger;
+    color:white;
+    
+}
 
-    max-height:500px ;
+.carousel-item>img{
+  
+
+    max-height:400px ;
     text-align: center;
 }
 .center{
