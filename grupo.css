@@ -6,13 +6,25 @@
 
 } */
 
+body{
+    background-color:darkslategray;
+}
+
 header{
-    background-color: #2f4f4f;
+    background-color:black;
     font-size: 40px;
     color: white;
     height: 100px;
     text-align: center;
     
+}
+
+.proyecto1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 500 px;
+    height: 500px;
 }
 
 .fotoLogo{
@@ -35,11 +47,13 @@ header{
     /* text-align: center; */
     display: flex;
     justify-content: center;
+    
 }
 
 .card-text, .card-title{
     text-align: center;
     padding:10px 0;
+    color: white;
 }
 
 .card-body{
