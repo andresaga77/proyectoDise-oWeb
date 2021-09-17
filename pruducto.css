@@ -30,3 +30,8 @@ body {
 section {
   color: black;
 }
+
+.img {
+  width: 350px;
+  height: 330px;
+}
