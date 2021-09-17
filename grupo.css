@@ -1,0 +1,68 @@
+/*  *{
+    margin: 0;
+    padding: 0;
+    /con la siguiente línea yo controlo el tamaño de la caja sumando el contenido, el padding y el border 
+    box-sizing: border-box;
+
+} */
+
+body{
+    background-color:darkslategray;
+}
+
+header{
+    background-color:black;
+    font-size: 40px;
+    color: white;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.proyecto1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 500 px;
+    height: 500px;
+}
+
+.fotoLogo{
+    display: block;
+    text-align: left;
+    width: 100px;
+    height: 100px;
+}
+
+.card-img-top{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+       
+}
+
+.btn-primary, .card{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card-text, .card-title{
+    text-align: center;
+    padding:10px 0;
+    color: white;
+}
+
+.card-body{
+    padding: 0 20px;
+    margin: 0 20px;
+
+}
+
+h5{
+    padding:10px 0;
+}
+
