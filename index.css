@@ -30,3 +30,15 @@ body{
     text-align: center;
     align-items: center;
 }
+
+.diseño{
+    text-align: left;
+    align-items: center;
+    /* background-color: transparent; */
+}
+
+.trans{
+    
+    background-color: transparent;
+}
+
